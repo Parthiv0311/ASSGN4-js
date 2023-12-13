@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info Search</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Country Information Search</h1>
+    <div id="content">
+        <p id="student-info">Student ID: 200543216, Name: Parthiv</p>
+        <div class="search-container">
+            <input type="text" id="country-input" placeholder="Enter country name" autocomplete="off">
+            <div id="suggestions-dropdown" class="suggestions-dropdown"></div>
+        </div>
+        <button id="search-btn">Search</button>
+        <div id="country-info"></div>
+    </div>
+
+    <footer>
+        <p>Country data sourced from REST Countries API: <a href="https://restcountries.com/" target="_blank">REST Countries Documentation</a></p>
+    </footer>
+</body>
+</html>
